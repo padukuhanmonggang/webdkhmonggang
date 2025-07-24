@@ -1547,10 +1547,9 @@ section,
   .contact .social-links-panel .social-icons {
     flex-wrap: wrap;
   }
-}
+
 /* Responsive Design for Mobile (max-width: 768px) */
 @media (max-width: 768px) {
-
   /* Header and Navbar */
   header {
     padding: 15px 20px;
@@ -1647,17 +1646,9 @@ section,
     top: auto;
     bottom: -20px;
   }
-
-}
-/* ... semua CSS lain ... */
-
-
-/* RESPONSIVE UNTUK HERO TEXT */
-@media (max-width: 768px) {
-  /* isi seperti di atas */
 }
 
+/* Responsif untuk ukuran lebih kecil */
 @media (max-width: 480px) {
-  /* isi seperti di atas */
+  /* Penyesuaian tambahan untuk ukuran sangat kecil */
 }
-
