@@ -1649,4 +1649,15 @@ section,
   }
 
 }
+/* ... semua CSS lain ... */
+
+
+/* RESPONSIVE UNTUK HERO TEXT */
+@media (max-width: 768px) {
+  /* isi seperti di atas */
+}
+
+@media (max-width: 480px) {
+  /* isi seperti di atas */
+}
 
