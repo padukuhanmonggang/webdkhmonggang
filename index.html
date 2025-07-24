@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Beranda Padukuhan Monggang</title>
+  <title>Website Padukuhan Monggang</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lato&family=Raleway&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,22 +27,42 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-  
 
+  <style>
+    .boxed-section {
+      border: 1px solid #ddd;
+      padding: 30px;
+      border-radius: 12px;
+      background-color: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      margin-bottom: 40px;
+    }
+
+    body.profile.html-page {
+      background: url('assets/img/bg-profile.jpg') no-repeat center center fixed;
+      background-size: cover;
+      background-color: #f8f9fa;
+    }
+
+    .hero-text {
+      color: white;
+      font-weight: bold;
+      text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px  1px 0 #000,
+        1px  1px 0 #000;
+    }
+  </style>
 </head>
 
-<body class="index.html-page">
+<body>
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.webp" alt=""> -->
-
         <h1 class="sitename">Dusun Monggang</h1>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Beranda</a></li>
@@ -58,84 +78,203 @@
 
   <main class="main">
 
-<!-- Hero Section -->
-<section id="hero" class="hero section p-0 position-relative">
-  <div class="swiper hero-slider">
-    <div class="swiper-wrapper">
-
-      <!-- Slide 1 -->
-      <div class="swiper-slide position-relative">
-        <img src="assets/img/sawahh1.jpg" class="img-fluid w-100" alt="Slide 1">
-        <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
-          <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
-          <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section p-0 position-relative">
+      <div class="swiper hero-slider">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/sawahh1.jpg" class="img-fluid w-100" alt="Slide 1">
+            <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
+              <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
+              <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/sawah7.jpg" class="img-fluid w-100" alt="Slide 2">
+            <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
+              <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
+              <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/sawah8.jpg" class="img-fluid w-100" alt="Slide 3">
+            <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
+              <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
+              <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/sawah3.jpg" class="img-fluid w-100" alt="Slide 4">
+            <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
+              <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
+              <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
+            </div>
+          </div>
+          <!-- Slide 5 -->
+          <div class="swiper-slide position-relative">
+            <img src="assets/img/sawah1.jpg" class="img-fluid w-100" alt="Slide 5">
+            <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
+              <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
+              <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
+            </div>
+          </div>
         </div>
       </div>
+    </section>
+    <!-- /Hero Section -->
 
-      <!-- Slide 2 -->
-      <div class="swiper-slide position-relative">
-        <img src="assets/img/sawah7.jpg" class="img-fluid w-100" alt="Slide 2">
-        <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
-          <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
-          <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
+    <!-- Profile Section -->
+    <section id="home-profile.html" class="home-profile.html section">
+  <div class="container boxed-section" data-aos="fade-up" data-aos-delay="100">
+    <div>
+<br> <br> <h1 class="text-center fw-bold">Profile Padukuhan</h1><br><br>
+</div>
+    <!-- Gambar 2 kolom -->
+    <div class="row gy-4 mb-4">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+        <img src="assets/img/monggangdepan.jpg" alt="Monggang Depan" class="img-fluid rounded-3 w-100">
+      </div>
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+        <img src="assets/img/tugumonggang.jpg" alt="Tugu Monggang" class="img-fluid rounded-3 w-100">
+      </div>
+    </div>
+
+    <!-- Teks di bawah -->
+    <div class="row">
+      <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+        <div class="profile.html-content">
+          <p>Monggang merupakan sebuah padukuhan yang terletak di Kalurahan Pendowoharjo, Kapanewon Sewon, Kabupaten Bantul, Daerah Istimewa Yogyakarta. Wilayah ini dikenal dengan hamparan sawah yang luas—depan sawah, belakang pun sawah. Pemandangan hijau dan suasana pedesaan yang masih alami menjadi ciri khas Monggang.</p>
+          <p>Padukuhan Monggang terbagi menjadi dua wilayah, yaitu Monggang Lor dan Monggang Kidul.</p>
+          <p>1. Monggang Lor terdiri dari tiga Rukun Tetangga (RT): RT 37, RT 38, dan RT 39.</p>
+          <p>2. Monggang Kidul juga terdiri dari tiga RT, yaitu RT 34, RT 35, dan RT 36.</p>
+          <p>Pembagian wilayah ini membantu dalam pengorganisasian kegiatan masyarakat, serta memperkuat kekompakan antarwarga dalam berbagai kegiatan sosial, budaya, dan pertanian yang menjadi bagian dari kehidupan sehari-hari di Monggang.</p>
         </div>
       </div>
-
-      <!-- Slide 3 -->
-      <div class="swiper-slide position-relative">
-        <img src="assets/img/sawah8.jpg" class="img-fluid w-100" alt="Slide 3">
-        <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
-          <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
-          <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
-        </div>
-      </div>
-
-      <!-- Slide 4 -->
-      <div class="swiper-slide position-relative">
-        <img src="assets/img/sawah3.jpg" class="img-fluid w-100" alt="Slide 4">
-        <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
-          <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
-          <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
-        </div>
-      </div>
-
-      <!-- Slide 5 -->
-      <div class="swiper-slide position-relative">
-        <img src="assets/img/sawah1.jpg" class="img-fluid w-100" alt="Slide 5">
-        <div class="position-absolute top-50 start-0 translate-middle-y ps-5">
-          <h1 class="hero-text display-4 mb-1">Selamat Datang di Website</h1>
-          <h1 class="hero-text display-6"> Padukuhan Monggang</h1>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
-<!-- /Hero Section -->
 
-<!-- Tambahkan style ini di <head> atau file style.css -->
-<style>
-.hero-text {
-  color: white;
-  font-weight: bold;
-  text-shadow:
-    -1px -1px 0 #000,
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000;
-}
-</style>
+<!-- /Home profile.html Section -->
 
+  <!-- profile.html Section -->
+   <section id="home-profile.html" class="home-profile.html section">
+  <div class="container boxed-section" data-aos="fade-up" data-aos-delay="100">
+<div class="text-center">
+  <h2>Sejarah</h2>
+</div>
+    <!-- Gambar 2 kolom -->
+    <div class="row gy-4 mb-4">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+        <img src="assets/img/randualas.jpg" alt="Monggang Depan" class="img-fluid rounded-3 w-100">
+      </div>
+    </div>
 
+    <!-- Teks di bawah -->
+    <div class="row">
+      <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+        <div class="profile.html-content">
+            <p>Berdasarkan cerita turun-temurun dan data dari Bapak Hariyanto, seorang dosen ISI dari jurusan Etnomusikologi yang juga dikenal sebagai peneliti musik dan sejarah, Monggang adalah dusun yang menyimpan nilai budaya dan sejarah yang kuat. Nama “Monggang” sendiri merujuk pada Gending Monggang, salah satu gending tertua dalam tradisi Kraton yang hanya menggunakan tiga nada, serta pada Gamelan Monggang, seperangkat gamelan khusus yang memiliki keistimewaan tersendiri dalam kesenian Jawa.</p>
+            <p>Di Monggang Lor, tepatnya di dekat area makam, terdapat sumber mata air besar yang diyakini berasal dari sungai bawah tanah. Konon, sumber ini dahulu ditutup dengan gong besar, yang oleh masyarakat dipercaya sebagai Kiayi Monggang. Selain itu, di pojok barat daya SD Monggang juga ada sumber air bersih yang tidak pernah kering bahkan saat musim kemarau; air ini sering disedot menggunakan mesin dan tetap jernih, menjadi sumber penting bagi warga.</p>
+            <p>Secara spiritual dan historis, Monggang juga dikenal dengan keberadaan dua makam tokoh penting: Mbah Budho dan Mbah Tuan. Mbah Budho diyakini sebagai tokoh pertama yang bermukim di wilayah ini, sedangkan Mbah Tuan dikenal sebagai pendatang sekaligus penyebar agama Islam. Sebutan “Tuan” berasal dari tradisi masyarakat lokal dalam menyebut orang asing. Di area makam Mbah Tuan ditemukan peninggalan berupa Lingga dan Yoni, simbol kesuburan yang lazim dalam budaya Hindu, serta batu Lumpang yang kini disimpan di kebun Pak Dukuh. Ketiganya dulu merupakan bagian dari perlengkapan upacara adat. Namun, setelah ajaran Islam berkembang, benda-benda tersebut sengaja dipisah untuk menghindari praktik upacara yang bertentangan dengan nilai-nilai Islam.</p>
+            <p>Monggang dikenal luas sebagai kampung seni. Banyak warga di dusun ini yang berprofesi sebagai seniman, termasuk dalang, musisi, penari, hingga perupa, bahkan sebagian besar memiliki keterkaitan dengan Institut Seni Indonesia (ISI). Tradisi seni dan budaya sangat hidup di tengah masyarakat, terlihat dari kerajinan tangan seperti kreneng yang sudah diwariskan secara turun-temurun.</p>
+            <p>Secara administratif, Padukuhan Monggang terdiri dari dua wilayah, yaitu Monggang Lor dan Monggang Kidul. Keduanya memiliki tradisi dan nilai-nilai budaya yang sama kuat. Selain kekayaan seni dan sejarahnya, di Monggang juga terdapat pohon Randu Alas besar yang tumbuh di dekat makam dan dipercaya sebagai salah satu pohon tertua dan tertinggi di wilayah kabupaten.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+    <!-- /Potensi Section -->
 
+    <!-- Gallery Section -->
+    <section id="gallery-iframe" class="gallery section py-5">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://galeridkhmonggang.blogspot.com" 
+                      title="Galeri Dusun Monggang"
+                      loading="lazy"
+                      allowfullscreen
+                      style="border:0; width:100%; height:100%;"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Gallery Section -->
+
+    <!-- Kegiatan Section -->
+    <section class="section">
+      <div class="container" data-aos="fade-up">
+        <div class="ratio ratio-16x9">
+          <iframe src="https://kegiatandkhmonggang.blogspot.com/" style="border:0;" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- /Kegiatan Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div><br><br><h1 class="text-center fw-bold">Kontak Informasi</h1><br><br></div>
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info-panel">
+            <div class="contact-info-header">
+              <h3>Informasi Monggang</h3>
+            </div>
+            <div class="contact-info-cards">
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-pin-map-fill"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Lokasi Kami</h4>
+                  <p>Dukuh Monggang, Kelurahan Pendowoharjo, Kecamatan Sewon, Kabupaten Bantul</p>
+                </div>
+              </div>
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-phone"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Nomor Hp</h4>
+                  <p>08562907475 (Bapak Dukuh)</p>
+                </div>
+              </div>
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-instagram"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Instagram Dusun</h4>
+                  <p>
+                    <a href="https://www.instagram.com/karangtaruna_mongganglor?igsh=MWMzem9yNXp4Zjhqeg==" target="_blank" style="color: inherit; text-decoration: underline;">
+                      MonggangLor
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-panel">
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7904.792980795651!2d110.33481594284947!3d-7.853506637895498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a563b611565ed%3A0x66c417cee45baf3!2sMonggang%2C%20Pendowoharjo%2C%20Sewon%2C%20Bantul%20Regency%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1753187704126!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Contact Section -->
 
   </main>
+
   <footer id="footer" class="footer position-relative light-background">
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">WEBSITE DUSUN MONGGANG</strong> <span>All Rights Reserved 2025</span></p>
-      <div class="credits">
-        Designed by <span style="color: blue;">KKN AB 146 UPN VETERAN YOGYAKARTA</span>
-      </div>
     </div>
   </footer>
 
@@ -159,33 +298,18 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-  var swiper = new Swiper(".hero-slider", {
-    loop: true,
-    autoplay: {
-      delay: 3000, // Ganti angka ini kalau mau lebih cepat atau lambat (dalam milidetik)
-      disableOnInteraction: false
-    },
-    effect: "fade",
-    fadeEffect: {
-      crossFade: true
-    }
-  });
-</script>
-
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-
-<!-- Swiper Init -->
-<script>
-  var swiper = new Swiper(".hero-slider", {
-    loop: true,
-    autoplay: {
-      delay: 3000, // ganti gambar tiap 3 detik
-      disableOnInteraction: false,
-    },
-    effect: "fade",
-  });
-</script>
+    var swiper = new Swiper(".hero-slider", {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
+      effect: "fade",
+      fadeEffect: {
+        crossFade: true
+      }
+    });
+  </script>
 
 </body>
 
