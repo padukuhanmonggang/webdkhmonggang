@@ -825,9 +825,8 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  padding: 0;
-  position: relative;
-  overflow: hidden;
+  height: 100vh;
+  min-height: 100vh;
 }
 
 .hero .hero-wrapper {
@@ -1533,122 +1532,50 @@ section,
   transform: translateX(5px);
 }
 
+/* Sembunyikan navmenu secara default di mobile */
 @media (max-width: 768px) {
-  .contact .contact-info-panel {
-    padding: 30px 25px;
-  }
-
-  .contact .form-container {
-    padding: 30px 25px;
-  }
+ /* Buat navmenu mobile-nya jelas dan kontras */
+.navmenu {
+  background-color: #ffffff; /* atau warna lain sesuai selera */
+  color: #000000; /* warna teks jadi hitam */
+  border-top: 1px solid #ccc;
 }
 
-@media (max-width: 576px) {
-  .contact .social-links-panel .social-icons {
-    flex-wrap: wrap;
-  }
-
-/* Responsive Design for Mobile (max-width: 768px) */
-@media (max-width: 768px) {
-  /* Header and Navbar */
-  header {
-    padding: 15px 20px;
-  }
-
-  .navbar {
-    display: none;
-  }
-
-  .mobile-nav-toggle {
-    display: inline-block;
-  }
-
-  .navbar-mobile {
-    display: block;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background: var(--nav-background);
-    padding: 10px 20px;
-    z-index: 999;
-  }
-
-  .navbar-mobile ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .navbar-mobile li {
-    margin: 0;
-  }
-
-  /* Hero Section */
-  #hero h1 {
-    font-size: 28px;
-  }
-
-  #hero h2 {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-
-  #hero .btn-get-started,
-  #hero .btn-watch-video {
-    font-size: 14px;
-    padding: 10px 20px;
-  }
-
-  #hero .info {
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
-  }
-
-  /* Section Title */
-  .section-title h2 {
-    font-size: 26px;
-  }
-
-  /* Footer */
-  .footer-top {
-    padding: 30px 20px;
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .footer-info, .footer-links, .footer-contact {
-    width: 100%;
-    text-align: center;
-  }
-
-  .footer-newsletter form {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  /* Home Profile Section */
-  .home-profile {
-    padding: 40px 20px;
-  }
-
-  .home-profile .profile-content,
-  .home-profile .features,
-  .home-profile .certificates {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-  }
-
-  .home-profile .badge-year {
-    left: 50%;
-    transform: translateX(-50%);
-    top: auto;
-    bottom: -20px;
-  }
+.navmenu ul li a {
+  color: #000000 !important; /* pastikan link terbaca */
+  font-weight: 500;
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
 }
 
-/* Responsif untuk ukuran lebih kecil */
-@media (max-width: 480px) {
-  /* Penyesuaian tambahan untuk ukuran sangat kecil */
+.navmenu ul li a:hover {
+  background-color: #f0f0f0;
 }
+}
+
+.swiper-slide .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.hero-text {
+  color: white;
+  font-weight: bold;
+  z-index: 2;
+  position: relative;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100vh; /* Tinggi layar penuh */
+  object-fit: cover; /* Menjaga proporsi, tapi tetap memenuhi */
+  object-position: center;
+}
+
